@@ -1,6 +1,5 @@
 import json
 from datetime import datetime
-from datetime import timedelta
 
 class Agenda:
   def __init__(self, id, data, confirmado, idCliente, idServico):
