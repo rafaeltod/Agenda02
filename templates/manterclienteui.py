@@ -1,4 +1,3 @@
-from ssl import Options
 import streamlit as st
 import pandas as pd
 from views import Views
