@@ -1,8 +1,11 @@
-from manterclienteui import ManterClienteUI
+import streamlit as st
 
-class IndexUI:
-  def main():
-    ManterClienteUI.main()
+st.set_page_config(
+    page_title="Streamlit PEOO",
+    page_icon="🤓",
+)
 
-
-IndexUI.main()
+st.title("Página Inicial")
+st.write("Seja bem-vindo ao Streamlit PEOO de Rafael Ricco!")
+st.write("😎😋😎")
+st.sidebar.success("Selecione uma página abaixo")
