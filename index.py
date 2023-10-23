@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from templates.manterclienteui import ManterClienteUI
 from templates.manterservicoui import ManterServicoUI
 from templates.manteragendaui import ManterAgendaUI
@@ -17,3 +18,16 @@ class IndexUI:
 
 
 IndexUI.main()
+=======
+import streamlit as st
+
+st.set_page_config(
+    page_title="Streamlit PEOO",
+    page_icon="🤓",
+)
+
+st.title("Página Inicial")
+st.write("Seja bem-vindo ao Streamlit PEOO de Rafael Ricco!")
+st.write("😎😋😎")
+st.sidebar.success("Selecione uma página abaixo")
+>>>>>>> 344575bc3c6153c093aa100b41a649fa6be0ac06
