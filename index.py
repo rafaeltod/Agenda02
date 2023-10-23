@@ -15,5 +15,4 @@ class IndexUI:
   def main():
     IndexUI.sidebar()
 
-
 IndexUI.main()
